@@ -3,7 +3,9 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>|
-      <router-link to="/PicPixelDraw">PicPixelDraw</router-link>|
+      <router-link to="/about">
+        <b-icon icon="github" size="is-small"> </b-icon></router-link
+      >| <router-link to="/PicPixelDraw">PicPixelDraw</router-link>|
       <router-link to="/IsoDraw">IsoDraw</router-link>
     </div>
     <router-view />
