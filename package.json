@@ -10,8 +10,10 @@
   "dependencies": {
     "buefy": "^0.9.7",
     "core-js": "^3.6.5",
+    "file-saver": "^2.0.5",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vue-swatches": "^2.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
