@@ -52,6 +52,7 @@
                 controls-rounded
                 v-model="xBias"
                 step="5"
+                min="15"
               ></b-numberinput>
             </b-field>
           </section>
@@ -91,7 +92,7 @@
               <svg id="isoSvg" ref="isoSvg" :viewBox="computedViewBox">
                 <!-- p in size is y coord -->
                 <!-- n in size is x coord -->
-                <g v-for="p in 30" :key="p">
+                <g v-for="p in 40" :key="p">
                   <ComponentPoly
                     :color="color"
                     v-for="n in rowwidth"
@@ -172,7 +173,7 @@ export default {
       color: "red",
       xBias: 40,
       Size: 29,
-      rowwidth: 20,
+      rowwidth: 40,
       allVisible: true,
       vbx: 115,
       vby: 240,
