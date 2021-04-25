@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <div class="has-background-grey-light">
       <b-collapse :open="false" aria-id="contentIdForA11y1">
         <button
           class="button is-primary"
@@ -79,7 +79,7 @@
           <vswatches v-model="color" swatches="text-advanced"></vswatches>
         </b-field>
         <div class="field">
-          <b-switch v-model="eyeDropper">
+          <b-switch passive-type="is-dark" v-model="eyeDropper">
             Eyedropper is {{ eyeDropper }}
           </b-switch>
         </div>

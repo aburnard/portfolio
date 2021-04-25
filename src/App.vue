@@ -14,7 +14,7 @@
           </b-navbar-item>
         </template>
 
-        <template slot="end">
+        <template slot="end" class="is-primary">
           <b-navbar-item tag="div">
             <div class="buttons">
               <b-navbar-item>

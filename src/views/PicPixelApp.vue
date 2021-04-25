@@ -10,7 +10,7 @@ import picPixelApp from "../components/picPixelApp.vue";
 
 export default {
   components: {
-    picPixelApp
-  }
+    picPixelApp,
+  },
 };
 </script>

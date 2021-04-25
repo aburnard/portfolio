@@ -6,8 +6,8 @@
           <h1 class="title">About Pixeltown.org</h1>
           <content>
             <div>
-              <strong>Andrew Burnard</strong> is a web developer and multimedia
-              artist based in Melbourne Australia.
+              <strong>Andrew Burnard</strong> is an aspiring web developer and
+              multimedia artist based in Melbourne Australia.
               <br />
               <strong>Pixeltown.org</strong> is a website showcasing his web
               projects and related ideas.

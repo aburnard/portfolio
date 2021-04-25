@@ -1,9 +1,9 @@
 <template>
   <div>
-    <section class="hero">
+    <section class="hero is-dark">
       <div class="content">
-        <hr />
-        <h1 is-primary>Welcome to pixeltown.org</h1>
+        <cr />
+        <h1>Welcome to pixeltown.org</h1>
 
         <p1>Featuring the web apps of Andrew Burnard</p1>
       </div>
@@ -36,6 +36,7 @@
         </div>
       </div>
     </section>
+    <section class="hero is-fullheight is-dark"><cr /></section>
   </div>
 </template>
 
